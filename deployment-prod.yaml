@@ -41,7 +41,7 @@ metadata:
   name: prod-service
 spec:
   type: LoadBalancer 
-  loadBalancerIP: 10.48.10.149                                     # <-----change this to match your load balancer IP!!!!
+  loadBalancerIP: 10.48.10.230                                    # <-----change this to match your load balancer IP!!!!
   ports:
   - protocol: TCP
     port: 80
